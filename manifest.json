@@ -1,0 +1,14 @@
+{
+	"name": "Chrome Share!",
+	"author": "vinc, jay, YuChi",
+	"description": "Interactively share your chrome window with your friends!",
+	"version": "0.1",
+	"manifest_version": 2,
+	"app": {
+		"backgroud": {
+			"script": ["background.js"]
+		},
+		"launch": {"local_path": "window.html"} 
+	}
+	"icon": {"16": "share-16.png", "128": "share-128.png" }
+}
